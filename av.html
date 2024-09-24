@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Right-Angle Triangle with Curved Hypotenuse</title>
+    <style>
+        .triangle-container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background: #3498db;
+            clip-path: polygon(0 0, 100% 0, 0 100%);
+        }
+
+        .triangle-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 200px;
+            background: #ffffff;
+            clip-path: polygon(0 0, 100% 100%, 0 100%);
+            transform: translate(10px, 10px) rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="triangle-container"></div>
+</body>
+</html>

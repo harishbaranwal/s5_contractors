@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>S5 Contractors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+ 
+
+
+  
+
+    <div class="wrapper">
+        <nav>
+          <input type="checkbox" id="show-menu">
+          <div class="content">
+            <div class="logo">
+              <img src="./assets/03 ICON PNG.png" alt="">
+            </div>
+            <ul class="links">
+              <li class="active"><a href="./index.html">HOME</a></li>
+              <li><a href="./about.html">ABOUT US</a></li>
+              <li><a href="./service.html">SERVICES</a></li>
+              <li><a href="./design.html">DESIGNS</a></li>
+              <li><a href="./blog.html">BLOG</a></li>
+              <li class="dropdown-parent">
+                <a href="#">MORE</a>
+                <ul class="dropdown">
+                  <li><a href="#">Drop Menu 1</a></li>
+                  <li><a href="#">Drop Menu 2</a></li>
+                  <li><a href="#">Drop Menu 3</a></li>
+                  <li><a href="#">Drop Menu 4</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        </nav>
+      </div>
+
+
+    
+
+
+      <div class="about_landing_banner">
+
+        <h1>Bringing Your Vision to Life <br>
+            with Expertise and Dedication</h1>
+
+
+        <picture class="about_landing_banner_img">
+            <source srcset="./assets/square_banner.jpg" media="(max-width: 450px)">
+            <img src="./assets/gerentes-construccion-exitosos.jpg.jpg" alt="">
+        </picture>
+    
+     
+
+
+
+        <div class="about_landing_banner_down_part">
+
+            <ul>
+                <li><span class="number">250+</span><span class="text">Clients</span></li>
+                <li><span class="number">400+</span><span class="text">Designs</span></li>
+                <li><span class="number">60+</span><span class="text">Awards Won</span></li>
+                <li><span class="number">20+</span><span class="text">Countries</span></li>
+                <li><span class="number">12+</span><span class="text">Years of Experience</span></li>
+            </ul>
+
+        </div>
+    </div>
+
+
+
+
+
+    
+
+    <div class="project">
+        <h2 class="project-heading">OUR PROJECTS</h2>
+        <p class="project-paragraph">We cater to every taste and style</p>
+
+        <nav class="navbar">
+            <ul>
+
+
+                <li onclick="changeCategory('bedroom')">Bedroom</li>
+                <li onclick="changeCategory('bathroom')">Bathroom</li>
+                <li onclick="changeCategory('kitchen')">Kitchen</li>
+                <li onclick="changeCategory('livingRoom')">Living Room</li>
+                <li onclick="changeCategory('commercial')">Commercial Room</li>
+                <li onclick="changeCategory('others')">Others</li>
+
+
+            </ul>
+        </nav>
+
+        <div class="slider">
+            <div class="slider-wrapper">
+
+            </div>
+            <div class="slider-controls">
+                <span class="arrow arr_left" onclick="moveSlide(-1)">&#10094;</span>
+                <span class="arrow arr_right" onclick="moveSlide(1)">&#10095;</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="subscribe_banner">
+        <div class="subscribe_banner_content">
+            <div class="subscribe_banner_left_part">
+                <img src="./assets/3d-rendering-isometric-house_23-2150727910-removebg-preview.png" alt="">
+            </div>
+
+
+
+            <div class="subscribe_banner_right_part">
+                <p>Subscribe to our newsletter to get updates on our latest collections</p>
+                <p>Get 20% off on your first order just by subscribing to our newsletter</p>
+
+                <div class="btn_input">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Enter Your Mail Here" />
+                    <button class="subscribe-button">Subscribe</button>
+                </div>
+
+
+                <p>You will be able to unsubscribe at any time.</p>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_top_part">
+            <div class="footer_col col_1">
+                <img src="./assets/03 ICON PNG.png" alt="Logo">
+                <p>S5 Contractors create spaces that inspire and uplift. We blend aesthetics and functionality in every
+                    project, ensuring meticulous attention to detail and perfection in every aspect.</p>
+                <div class="social_icon">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer_col col_2">
+                <p>QUICK LINKS</p>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Designs</a></li>
+                </ul>
+            </div>
+            <div class="footer_col col_3">
+                <p>MORE LINKS</p>
+                <ul>
+                    <li><a href="#">How It Works</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#">Revolution Dictionary</a></li>
+                </ul>
+            </div>
+            <div class="footer_col col_4">
+                <p>CONTACT US</p>
+                <p>Rene Home Technology Limited<br>Unit 208, Level 1<br>Gate Avenue Dubai<br>International Financial
+                    Center</p>
+                <p><i class="fas fa-phone-alt"></i> +123 456 789</p>
+                <p><i class="fas fa-envelope"></i> info@reno.com</p>
+            </div>
+        </div>
+        <div class="footer_bottom_part">
+            <p>&copy; Copyright by Reno. All rights reserved.</p>
+            <div class="footer_links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Conditions</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script></script>
+
+
+
+ 
+
+    <script>
+        const testimonialsGrid = document.querySelector('.testimonials-grid');
+        const loadMoreBtn = document.querySelector('.load-more-btn');
+    
+        let totalCards = 15; // Total number of cards to load
+        let cardsToShow = 9; // Initially showing 9 cards
+        let increment = 3; // Number of cards to load on each click
+    
+        // Function to create a card with dynamic content
+        function createCard(headingText, descriptionText, imgSrc, imgAlt, info1Text, info2Text) {
+            const card = document.createElement('div');
+            card.classList.add('testimonial-card');
+    
+            const heading = document.createElement('h4');
+            heading.textContent = headingText;
+    
+            const description = document.createElement('p');
+            description.textContent = descriptionText;
+    
+            const bottomSection = document.createElement('div');
+            bottomSection.classList.add('bottom-section');
+    
+            const img = document.createElement('img');
+            img.src = imgSrc;
+            img.alt = imgAlt;
+    
+            const info = document.createElement('div');
+            info.classList.add('info');
+    
+            const info1 = document.createElement('p');
+            info1.textContent = info1Text;
+    
+            const info2 = document.createElement('p');
+            info2.textContent = info2Text;
+    
+            // Append info1 and info2 to the info div
+            info.appendChild(info1);
+            info.appendChild(info2);
+    
+            // Append img and info div to the bottom section
+            bottomSection.appendChild(img);
+            bottomSection.appendChild(info);
+    
+            card.appendChild(heading);
+            card.appendChild(description);
+            card.appendChild(bottomSection);
+    
+            return card;
+        }
+    
+        // Card data array for easy management
+        const cardData = [
+            { title: 'Delivered Beyond Expectations', desc: 'S5 Contractor delivered results far beyond what we imagined. Their work is exceptional, and we couldn’t be more satisfied with the outcome!', img: './assets/image 4.png', imgAlt: 'Image 1', info1: 'Vijay Sharma', info2: 'Delhi | India' },
+            { title: 'Delivered Beyond Expectations', desc: 'S5 Contractor delivered results far beyond what we imagined. Their work is exceptional, and we couldn’t be more satisfied with the outcome!', img: './assets/image 4.png', imgAlt: 'Image 1', info1: 'Vijay Sharma', info2: 'Delhi | India' },
+            { title: 'Delivered Beyond Expectations', desc: 'S5 Contractor delivered results far beyond what we imagined. Their work is exceptional, and we couldn’t be more satisfied with the outcome!', img: './assets/image 4.png', imgAlt: 'Image 1', info1: 'Vijay Sharma', info2: 'Delhi | India' },
+            { title: 'Delivered Beyond Expectations', desc: 'S5 Contractor delivered results far beyond what we imagined. Their work is exceptional, and we couldn’t be more satisfied with the outcome!', img: './assets/image 4.png', imgAlt: 'Image 1', info1: 'Vijay Sharma', info2: 'Delhi | India' },
+            { title: 'Delivered Beyond Expectations', desc: 'S5 Contractor delivered results far beyond what we imagined. Their work is exceptional, and we couldn’t be more satisfied with the outcome!', img: './assets/image 4.png', imgAlt: 'Image 1', info1: 'Vijay Sharma', info2: 'Delhi | India' },
+            { title: 'Delivered Beyond Expectations', desc: 'S5 Contractor delivered results far beyond what we imagined. Their work is exceptional, and we couldn’t be more satisfied with the outcome!', img: './assets/image 4.png', imgAlt: 'Image 1', info1: 'Vijay Sharma', info2: 'Delhi | India' },
+            { title: 'Delivered Beyond Expectations', desc: 'S5 Contractor delivered results far beyond what we imagined. Their work is exceptional, and we couldn’t be more satisfied with the outcome!', img: './assets/image 4.png', imgAlt: 'Image 1', info1: 'Vijay Sharma', info2: 'Delhi | India' },
+                        { title: 'Delivered Beyond Expectations', desc: 'S5 Contractor delivered results far beyond what we imagined. Their work is exceptional, and we couldn’t be more satisfied with the outcome!', img: './assets/image 4.png', imgAlt: 'Image 1', info1: 'Vijay Sharma', info2: 'Delhi | India' },
+                        { title: 'Delivered Beyond Expectations', desc: 'S5 Contractor delivered results far beyond what we imagined. Their work is exceptional, and we couldn’t be more satisfied with the outcome!', img: './assets/image 4.png', imgAlt: 'Image 1', info1: 'Vijay Sharma', info2: 'Delhi | India' },
+                        { title: 'Delivered Beyond Expectations', desc: 'S5 Contractor delivered results far beyond what we imagined. Their work is exceptional, and we couldn’t be more satisfied with the outcome!', img: './assets/image 4.png', imgAlt: 'Image 1', info1: 'Vijay Sharma', info2: 'Delhi | India' },
+                        { title: 'Delivered Beyond Expectations', desc: 'S5 Contractor delivered results far beyond what we imagined. Their work is exceptional, and we couldn’t be more satisfied with the outcome!', img: './assets/image 4.png', imgAlt: 'Image 1', info1: 'Vijay Sharma', info2: 'Delhi | India' },
+                        { title: 'Delivered Beyond Expectations', desc: 'S5 Contractor delivered results far beyond what we imagined. Their work is exceptional, and we couldn’t be more satisfied with the outcome!', img: './assets/image 4.png', imgAlt: 'Image 1', info1: 'Vijay Sharma', info2: 'Delhi | India' },
+                        { title: 'Delivered Beyond Expectations', desc: 'S5 Contractor delivered results far beyond what we imagined. Their work is exceptional, and we couldn’t be more satisfied with the outcome!', img: './assets/image 4.png', imgAlt: 'Image 1', info1: 'Vijay Sharma', info2: 'Delhi | India' },
+                        { title: 'Delivered Beyond Expectations', desc: 'S5 Contractor delivered results far beyond what we imagined. Their work is exceptional, and we couldn’t be more satisfied with the outcome!', img: './assets/image 4.png', imgAlt: 'Image 1', info1: 'Vijay Sharma', info2: 'Delhi | India' },
+                        { title: 'Delivered Beyond Expectations', desc: 'S5 Contractor delivered results far beyond what we imagined. Their work is exceptional, and we couldn’t be more satisfied with the outcome!', img: './assets/image 4.png', imgAlt: 'Image 1', info1: 'Vijay Sharma', info2: 'Delhi | India' },
+
+
+
+            // Add more card objects as needed...
+        ];
+    
+        // Function to render cards in the grid
+        function renderCards(count) {
+        const currentCardCount = testimonialsGrid.children.length;
+        for (let i = currentCardCount; i < currentCardCount + count && i < cardData.length; i++) {
+            const card = createCard(
+                cardData[i].title,
+                cardData[i].desc,
+                cardData[i].img,
+                cardData[i].imgAlt,
+                cardData[i].info1,
+                cardData[i].info2
+            );
+            testimonialsGrid.appendChild(card);
+        }
+
+        // Hide the button if all cards are loaded
+        if (testimonialsGrid.children.length >= cardData.length) {
+            loadMoreBtn.style.display = 'none';
+        }
+    }
+
+    // Scroll by the height of one card
+    function scrollByOneCard() {
+        const lastCard = testimonialsGrid.lastElementChild;
+        if (lastCard) {
+            const cardHeight = lastCard.offsetHeight; // Get the height of the last card
+            window.scrollBy({
+                top: cardHeight, // Scroll by the height of one card
+                behavior: 'smooth'
+            });
+        }
+    }
+
+    // Initially render the first set of cards
+    renderCards(cardsToShow);
+
+    // Load more cards on button click
+    loadMoreBtn.addEventListener('click', () => {
+        renderCards(increment);
+        scrollByOneCard();  // Scroll by one card after loading new cards
+    });
+</script>
+
+    
+
+
+
+    <script>
+        const sliderWrapper = document.querySelector('.coustomer-slider-wrapper');
+        const slides = document.querySelectorAll('.coustomer-slide');
+        const numOfSlides = slides.length;
+
+
+        for (let i = 0; i < 5; i++) {
+            let clone = slides[i].cloneNode(true);
+            sliderWrapper.appendChild(clone);
+        }
+
+    </script>
+
+
+
+<script src="script.js"></script>
+<script src="about.js"></script>
+
+
+</body>
+
+</html>
